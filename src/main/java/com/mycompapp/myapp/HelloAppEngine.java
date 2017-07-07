@@ -43,12 +43,12 @@ public class HelloAppEngine extends HttpServlet {
       throws IOException {
 	  
 	  
-	  Properties properties = System.getProperties();
+/*	  Properties properties = System.getProperties();
 
 	    response.setContentType("text/plain");
 	    response.getWriter().println("Hello App Engine Get - Standard using "
 	        + SystemProperty.version.get() + " Java " + properties.get("java.specification.version"));
-	  
+	  */
 	// Configure logging to output to the console with default level of INFO
 	    BasicConfigurator.configure();
 

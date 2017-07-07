@@ -59,7 +59,7 @@ public class HelloAppEngine extends HttpServlet {
 	    
 	    SslContextFactory sslContextFactory = sslConnectionFactory.getSslContextFactory();
 	    
-	   sslContextFactory.setKeyStorePath("src/main/webapp/MyNewJks.jks");
+	   sslContextFactory.setKeyStorePath("src/main/webapp/MyNewJks1.jks");
 	    //sslContextFactory.setKeyStorePath("./MyNewJks.jks");
 	    
 

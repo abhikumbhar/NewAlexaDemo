@@ -6,13 +6,23 @@
   
   
   <servlet-mapping>
-    <servlet-name>HelloAppEngine</servlet-name>
+    <servlet-name>HelloWorldSpeechlet</servlet-name>
     <url-pattern>/hello</url-pattern>   
 </servlet-mapping>
-<servlet>
+<!-- <servlet>
     <servlet-name>HelloAppEngine</servlet-name>
     <servlet-class>com.mycompapp.myapp.HelloAppEngine</servlet-class>    
+</servlet>  -->
+
+<servlet>
+    <servlet-name>HelloWorldSpeechlet</servlet-name>
+    <servlet-class>com.mycompapp.myapp.com.spring.HelloWorldSpeechlet</servlet-class>    
 </servlet>
+
+
+
+
+
 <welcome-file-list/>
   <!--  <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
